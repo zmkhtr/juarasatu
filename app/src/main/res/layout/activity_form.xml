@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.Activity.FormActivity">
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:endIconMode="dropdown_menu">
+
+
+        <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+            android:id="@+id/dropdownFormDompetAnda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Dompet digital yang anda gunakan"
+            android:focusable="false"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Nomor handphone anda">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtFormNoHpAnda"
+            android:backgroundTint="#fff"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:endIconMode="dropdown_menu">
+
+
+        <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+            android:id="@+id/dropdownFormDompetTujuan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Dompet digital tujuan"
+            android:focusable="false"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Nomor handphone tujuan">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtFormNoHpTujuan"
+            android:backgroundTint="#fff"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Nominal (RP) / Rupiah">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtFormNominal"
+            android:backgroundTint="#fff"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <CheckBox
+        android:id="@+id/checkFormPriority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Priority Transfer"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textColor="@color/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:text="Dengan memilih priority transfer, request anda akan didahulukan, dan anda akan terkena potongan biaya sebesar Rp.1000,- dari nominal transfer."/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnFormSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"
+        android:text="Data Sudah Benar"
+        android:textAllCaps="false"
+        android:layout_margin="25dp"
+        android:textColor="@color/white"
+        />
+</LinearLayout>

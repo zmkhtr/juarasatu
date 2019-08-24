@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".UI.Activity.OtpActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kami telah mengirim kode verifikasi ke nomor"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textOtpNoHP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="081281920128"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="silahkan masukkan kode dibawah ini"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Masukkan Kode Verifikasi"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <com.mukesh.OtpView
+        android:id="@+id/otp_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:focusable="true"
+        android:itemBackground="@color/white"
+        android:textColor="@android:color/black"
+        app:itemCount="4"
+        app:lineColor="@color/colorPrimary"
+        app:viewType="line" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Kode OTP tidak masuk?"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnOtpKirimUlang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:layout_marginTop="10dp"
+        android:text="Kirim ulang OTP"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+    <!--<Button-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:id="@+id/btnOtpVerifikasi"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:backgroundTint="@color/colorAccent"-->
+    <!--android:text="Verifikasi"-->
+    <!--android:textAllCaps="false"-->
+    <!--android:layout_margin="25dp"-->
+    <!--android:textColor="@color/white"-->
+    <!--/>-->
+</LinearLayout>

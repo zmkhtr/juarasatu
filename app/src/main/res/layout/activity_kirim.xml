@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.Activity.KirimActivity"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:paddingTop="20dp">
+
+    <TextView
+        android:layout_width="220dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="Pastikan nominal transfer tepat berjumlah"/>
+    <TextView
+        android:id="@+id/textKirimTotalTransfer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorPrimary"
+        android:text="Rp. 150000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="Transfer Ke"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="15dp">
+            <ImageView
+                android:id="@+id/imageKirimTujuan"
+                android:layout_width="100dp"
+                android:layout_height="75dp"
+                android:src="@drawable/gopay"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_081281920128"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a_n_azam_mukhtar"
+                android:textColor="@color/black"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <!--<Button-->
+        <!--android:id="@+id/buttonKirimBatal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_marginStart="30dp"-->
+        <!--android:layout_marginEnd="30dp"-->
+        <!--android:text="Batalkan Transaksi"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="@color/red"-->
+        <!--android:backgroundTint="@color/white"-->
+        <!--/>-->
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:id="@+id/buttonKirimLanjut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"
+        android:text="Saya Sudah Transfer!"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        />
+</LinearLayout>

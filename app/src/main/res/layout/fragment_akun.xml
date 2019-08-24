@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgakun"
+    tools:context=".UI.Fragment.AkunFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="75dp"
+            android:src="@drawable/ic_account"/>
+        <TextView
+            android:id="@+id/textAkunNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Azam Mukhastar"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="30sp"/>
+        <TextView
+            android:id="@+id/textAkunPhone"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_margin="20dp"
+            android:text="081281920122128"
+            android:textColor="@color/white"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <Button
+            android:id="@+id/buttonAkunLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:text="@string/log_out"
+            android:textAllCaps="false"
+            android:textColor="@color/red"
+            android:backgroundTint="@color/white"
+            />
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

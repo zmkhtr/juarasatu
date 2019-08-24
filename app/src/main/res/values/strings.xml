@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">spin</string>
+    <string name="nomor_handphone">Nomor Handphone</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="nama">Nama</string>
+    <string name="lengkapi_data_berikut_dan_akun_spinmu_akan_terbuat">Lengkapi data berikut dan akun spinmu akan terbuat.</string>
+    <string name="selamat_datang">Selamat Datang!</string>
+    <string name="dengan_membuat_akun_ini_saya_telah_setuju_dengan_syarat_ketentuan_serta_kebijakan_privasi_yang_ditetapkan_oleh_spin"><![CDATA[Dengan membuat akun ini saya telah setuju dengan syarat & ketentuan serta kebijakan Privasi yang ditetapkan oleh Spin]]></string>
+    <string name="buat_akun">Buat Akun!</string>
+    <string name="todo">TODO</string>
+    <string name="belum_memiliki_akun_buat_akun">Belum memiliki akun? Buat Akun</string>
+    <string name="log_in">Log In</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="beranda">Beranda</string>
+    <string name="catatan">Catatan</string>
+    <string name="akun">Akun</string>
+    <string name="kirim_uang_digital">Kirim Uang Digital</string>
+    <string name="tekan_tombol_dibawah_ini_untuk_memulai_transaksi">Tekan tombol dibawah ini untuk memulai transaksi !</string>
+    <string name="log_out">Log Out</string>
+    <string name="lanjut">Lanjut!</string>
+    <string name="_081281920128">081281920128</string>
+    <string name="a_n_azam_mukhtar">a.n Azam Mukhtar</string>
+    <string name="history">History</string>
+</resources>
